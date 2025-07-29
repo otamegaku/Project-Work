@@ -2,3 +2,7 @@
 
 Diario di sviluppo del codice:
 
+Giorno 1:
+Il primo giorno di lavoro è stato dedicato nello scegliere un azienda da analizzare e da cui prendere i report di sostenibilità.
+Una volta scelta l'azienda (Mutti) ho comicniato nel creare e collegare il repository github con visual studio per cominciare a scrivere il codice html e css richiesto.
+La prima prova fatta è stato il far funzionare il download dei file in modo consono e nello scrivere l'alberatura iniziale del codice html.
