@@ -1,9 +1,9 @@
-body{
+body{                                          /*  colore del background  */
      
-    background-color: #fae7d7;
+     background-color: #fae7d7;   
 }
-    .background{
-    background-image: url("pomodori.jpg");
+    .background{                         /*  configurazione dell'immagine di sfondo  */
+    background-image: url("pomodori.jpg");        
     width: 1440px;
     height: 1250px;
     display: grid;
@@ -14,7 +14,7 @@ body{
     
  
 
-.text-center {
+.text-center {                                       /*  settaggio dei testi  */
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,7 @@ body{
 }
 
 
-.title-center {
+.title-center {                                              /*  settaggio del titolo  */
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +41,7 @@ body{
     font-size: xx-large;
     font-weight: bold;
 }
-    .block-opt{
+    .block-opt{                                                            /*  settagio del menù a tendina  */
        
     max-height: 200px;
     margin-left: auto;
@@ -57,7 +57,7 @@ body{
 
   
     
-    .button{
+    .button{                                                                 /*  settaggio del tasto  */
 
         background-color: rgb(201, 32, 54);
         font-size: 55px;
@@ -73,16 +73,16 @@ body{
   font-family: Arial;
 }
 
-.custom-select select {
-  display: none; /*hide original SELECT element: */
+.custom-select select {           /*nascondi la select originale */
+  display: none; 
 }
 
 .select-selected {
   background-color: rgb(255, 30, 60);
 }
 
-/* Style the arrow inside the select element: */
-.select-selected:after {
+
+.select-selected:after {        /* settaggio della freccia */
   position: absolute;
   content: "";
   top: 14px;
@@ -93,23 +93,23 @@ body{
   border-color: #fff transparent transparent transparent;
 }
 
-/* Point the arrow upwards when the select box is open (active): */
-.select-selected.select-arrow-active:after {
+
+.select-selected.select-arrow-active:after {        /*orienta la freccia in alto a menù aperto */
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
 
-/* style the items (options), including the selected item: */
-.select-items div,.select-selected {
-  color: #ffffff;
+
+.select-items div,.select-selected {                  /* stile delle opzioni*/
+  color: #ffffff; 
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
 }
 
-/* Style items (options): */
-.select-items {
+
+.select-items {                               /* stile delle opzioni */
   position: absolute;
   background-color: rgb(255, 30, 60);
   top: 100%;
@@ -118,8 +118,8 @@ body{
   z-index: 99;
 }
 
-/* Hide the items when the select box is closed: */
-.select-hide {
+
+.select-hide {          /* nascondi l'item quando chiuso */
   display: none;
 }
 
