@@ -25,6 +25,7 @@ body{                                          /*  colore del background  */
     backdrop-filter: blur(10px);
     color: white;
     font-family: TradeGothic LT CondEighteen;
+    font-size: 20px;
 }
 
 
@@ -38,7 +39,7 @@ body{                                          /*  colore del background  */
     align-self: anchor-center;
     color: rgb(44, 192, 51);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: 70px;
     font-weight: bold;
 }
     .block-opt{                                                            /*  settagio del menù a tendina  */
